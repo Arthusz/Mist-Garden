@@ -1,104 +1,133 @@
 body {
-    font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 .nav {
-    height: 93px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 80%;
+	height: 93px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 80%;
 
-    &__items {
-        gap: 40px;
-        display: flex;
-        align-items: center;
-    }
-    &__link {
-        color: #414840;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        text-decoration: none;
-        &--active {
-            color: #475f45;
-        }
-        &--membership {
-            border: 1px solid #475f45;
-            padding: 15px 30px;
-        }
-    }
+	&__items {
+		gap: 40px;
+		display: flex;
+		align-items: center;
+	}
+	&__link {
+		color: #414840;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		text-decoration: none;
+		&--active {
+			color: #475f45;
+		}
+		&--membership {
+			border: 1px solid #475f45;
+			padding: 15px 30px;
+		}
+	}
 }
 
 .tittle {
-    width: 528px;
-    height: 126px;
-    font-family: Libre Baskerville;
-    font-style: normal;
-    font-size: 57px;
-    line-height: 110%;
-    color: #343d33;
+	width: 528px;
+	height: 126px;
+	font-family: Libre Baskerville;
+	font-style: normal;
+	font-size: 57px;
+	line-height: 110%;
+	color: #343d33;
 }
 
 .content {
-    width: 80%;
-    padding-top: 144px;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+	width: 80%;
+	padding-top: 144px;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .description {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 150%;
-    font-size: 25px;
-    color: #414840;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 150%;
+	font-size: 25px;
+	color: #414840;
 }
 
 .cta {
-    background-color: #475f45;
-    color: #ffffff;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    display: flex;
-    position: static;
-    align-items: center;
-    padding: 20px 40px;
-    flex-direction: row;
-    justify-content: space-between;
+	background-color: #475f45;
+	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	display: flex;
+	position: static;
+	align-items: center;
+	padding: 20px 40px;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .container {
-    display: flex;
-    margin: 0px auto;
+	display: flex;
+	margin: 0px auto;
 
-    &__items {
-        border: 2px solid #475f45;
-        box-sizing: border-box;
-        margin: 0px 16px;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-        width: 185px;
-        padding: 20px 40px;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        text-transform: uppercase;
-        text-decoration: none;
+	&__items {
+		border: 2px solid #475f45;
+		box-sizing: border-box;
+		margin: 0px 16px;
+		flex: none;
+		order: 1;
+		flex-grow: 0;
+		width: 185px;
+		padding: 20px 40px;
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		text-transform: uppercase;
+		text-decoration: none;
 
-        &--active {
-            color: #475f45;
-        }
-    }
+		&--active {
+			color: #475f45;
+		}
+	}
+}
+
+.discover {
+	&__container {
+		background-color: green;
+	}
+	&__content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 150px 150px;
+		grid-template-areas: "image1 text" "image2 image2";
+		padding: 30px;
+		gap: 15px;
+	}
+	&__image1 {
+		grid-area: image1;
+		object-fit: cover;
+		width: 100%;
+		height: 150px;
+	}
+	&__image2 {
+		grid-area: image2;
+		object-fit: cover;
+		width: 100%;
+		height: 150px;
+	}
+	&__text {
+		grid-area: text;
+	}
 }
