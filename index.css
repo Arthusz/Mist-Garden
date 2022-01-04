@@ -207,7 +207,6 @@ body {
   height: 100px;
   color: #ffffff;
   margin: 0px;
-  margin-left: 89px;
 }
 
 .discover__text__paragraph {
@@ -216,7 +215,6 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 150%;
-  margin-left: 89px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,9 +234,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 40px;
-  width: 185px;
   height: 56px;
-  margin-left: 89px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.15cm;
@@ -247,14 +243,16 @@ body {
   font-family: Roboto;
   font-style: normal;
   color: #ffffff;
+  margin-top: 32px;
+  display: inline-block;
 }
 
-.new__container {
+.news__container {
   width: 80%;
-  margin: 0 auto;
+  margin: 96px auto;
 }
 
-.new__tittle {
+.news__tittle {
   height: 50px;
   font-family: Libre Baskerville;
   font-style: normal;
@@ -264,7 +262,14 @@ body {
   color: #343d33;
 }
 
-.new__main__text {
+.news__main__img {
+  width: 100%;
+  height: 333px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news__main__text {
   font-family: Libre Baskerville;
   font-style: normal;
   font-weight: normal;
@@ -274,7 +279,7 @@ body {
   padding-left: 24px;
 }
 
-.new__main__content {
+.news__main__content {
   display: -ms-grid;
   display: grid;
   width: 471px;
@@ -288,7 +293,7 @@ body {
   padding-left: 24px;
 }
 
-.new__main__date {
+.news__main__date {
   font-family: Roboto;
   width: 280px;
   height: 24px;
@@ -300,20 +305,35 @@ body {
   color: #343d33;
 }
 
-.new__container2 {
+.news__container2 {
   display: -ms-grid;
   display: grid;
-  gap: 24px;
+  gap: 50px;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
 }
 
-.subarticle__image1 {
-  width: 236px;
-  height: 151px;
+.sub-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
 }
 
-.subarticle__tittle1 {
+.sub-article:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.sub-article:not(:last-of-type) {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.sub-article__image {
+  width: 236px;
+}
+
+.sub-article__tittle {
   width: 280px;
   height: 25px;
   font-family: Libre Baskerville;
@@ -327,7 +347,7 @@ body {
   color: #475f45;
 }
 
-.subarticle__paragraph {
+.sub-article__paragraph {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -339,7 +359,7 @@ body {
   display: flex;
 }
 
-.subarticle__date {
+.sub-article__date {
   width: 280px;
   height: 24px;
   font-family: Roboto;
@@ -409,7 +429,7 @@ body {
   text-decoration: none;
 }
 
-.footer__link__Exhibitions {
+.footer__link__exhibitions {
   width: 69px;
   height: 16px;
   font-family: Roboto;
@@ -422,7 +442,7 @@ body {
   text-decoration: none;
 }
 
-.footer__link__Programsandevents {
+.footer__link__programs-and-events {
   width: 118px;
   height: 16px;
   font-family: Roboto;
@@ -435,7 +455,7 @@ body {
   text-decoration: none;
 }
 
-.footer__link__Store {
+.footer__link__store {
   width: 33px;
   height: 16px;
   font-family: Roboto;
@@ -448,7 +468,7 @@ body {
   text-decoration: none;
 }
 
-.footer__link__Membership {
+.footer__link__membership {
   width: 79px;
   height: 16px;
   font-family: Roboto;
