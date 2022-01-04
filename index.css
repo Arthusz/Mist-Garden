@@ -248,4 +248,249 @@ body {
   font-style: normal;
   color: #ffffff;
 }
+
+.new__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.new__tittle {
+  height: 50px;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 110%;
+  color: #343d33;
+}
+
+.new__main__text {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 110%;
+  color: #475f45;
+  padding-left: 24px;
+}
+
+.new__main__content {
+  display: -ms-grid;
+  display: grid;
+  width: 471px;
+  height: 73px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 150%;
+  color: #414840;
+  padding-left: 24px;
+}
+
+.new__main__date {
+  font-family: Roboto;
+  width: 280px;
+  height: 24px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 24px;
+  color: #343d33;
+}
+
+.new__container2 {
+  display: -ms-grid;
+  display: grid;
+  gap: 24px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.subarticle__image1 {
+  width: 236px;
+  height: 151px;
+}
+
+.subarticle__tittle1 {
+  width: 280px;
+  height: 25px;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 110%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #475f45;
+}
+
+.subarticle__paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414840;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subarticle__date {
+  width: 280px;
+  height: 24px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 150%;
+  color: #343d33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #414840;
+  padding-left: 99px;
+}
+
+.footer__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  width: 269px;
+  height: 96px;
+  color: #ffffff;
+}
+
+.footer__tittle {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 110%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.footer__link {
+  width: 38px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.footer__link__visit {
+  width: 28px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.footer__link__Exhibitions {
+  width: 69px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.footer__link__Programsandevents {
+  width: 118px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.footer__link__Store {
+  width: 33px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.footer__link__Membership {
+  width: 79px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.footer__connect {
+  width: 70px;
+  height: 18px;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 110%;
+  color: #ffffff;
+}
+
+.footer2 {
+  background-color: #343d33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 0px 23px;
+}
 /*# sourceMappingURL=index.css.map */
